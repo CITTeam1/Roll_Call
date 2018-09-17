@@ -1,0 +1,283 @@
+/* Remove the navbar's default margin-bottom and rounded borders*/
+
+.nav-link, .dropdown-toggle {
+  color: #edaa00;
+
+} 
+
+.paddown {
+  padding-top: 0.5em;
+}
+
+.navbar {
+
+  background-color: #8b2332;
+  color: #edaa00;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.hidethis {
+  visibility: hidden;
+}
+
+.tooltip-inner {
+    white-space:pre;
+    max-width:none;
+}
+
+.redb {
+  background-color: #8b2332;
+}
+
+.redf {
+  color:  #8b2332;
+}
+
+.yellowf {
+   color: #edaa00;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nbold {
+  font-weight: normal;
+}
+.tab {
+  padding-left:5em;
+}
+.t {
+  padding-left:1em;
+}
+
+.scrollable {
+    height: 60em;
+    overflow: scroll;
+}
+
+.center {
+  text-align: center;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link  {
+  background-color: #8b2332;
+  color: #edaa00;
+  font-weight: bold;
+  border-color:#edaa00 #edaa00 #edaa00;
+}
+
+
+.nav-pills,  .nav-pills .show>.nav-link .nav-link:hover {
+      background-color: #edaa00;
+  color: #8b2332;
+  font-weight: bold;
+}
+
+
+.nav-link, .dropdown-toggle,.dropdown-item, .dropdown-menu {
+    background-color: #8b2332;
+    color: #edaa00;
+}
+.dropdown-item:hover, .nav-link.active, {
+    background-color: #edaa00;
+    color: #8b2332;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+     background-color: #8b2332;
+  color: #edaa00;
+
+}
+
+.nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+     color: #8b2332;
+  background-color: #edaa00;
+
+}
+
+.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+     background-color: #8b2332;
+  color: #edaa00;
+
+}
+
+.nav-pills>li>a:focus, .nav-pills>li>a:hover {
+     color: #8b2332;
+  background-color: #edaa00;
+
+}
+
+.badge {
+  background-color: #edaa00;
+  color: #8b2332;
+}
+
+.Fixed
+{
+    position: fixed;
+    top: 35em;
+}
+
+input[type=checkbox].form-control {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: -8px;
+}
+
+.dcustom
+{
+  background-color: #8b2332;
+}
+
+.dcustom>.active>a, .dcustom>.active>a:focus, .dcustom>.active>a:hover {
+    color: #8b2332;
+    text-decoration: none;
+    background-color: #edaa00;
+    outline: 0;
+}
+
+.dcustom>li>a, .dcustom>li>a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #edaa00;
+    background-color: #8b2332;
+    white-space: nowrap;
+}
+
+.pagination>li>a, .pagnation>li>span{
+   background-color: #8b2332;
+   padding: 6px;
+  color: #edaa00;
+}
+
+.pagnation>li>span {
+   background-color: #8b2332;
+   padding: 6px;
+  color: #edaa00;
+  border: 1px solid red;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    cursor: default;
+     padding: 6px;
+    border-color: #edaa00;
+    background-color: #edaa00;
+    color: #8b2332;;
+}
+
+
+h1, h2, h3, .timehead {
+  font-weight: bold;
+  color: #8b2332;
+}
+.card>.card-header, .card>.card-footer, thead
+{
+  color: #edaa00;
+  background-color: #8b2332;
+  border-color: #ddd;
+}
+
+th, tr{
+  text-align: right;
+}
+
+.card-body {
+   color: #8b2332;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.input-group-text {
+  color: #edaa00;
+  background-color: #8b2332;
+  border-color: #ccc;
+}
+
+.btn-default, .btn-primary, .btn-info .btn-info:hover {
+  color: #edaa00;
+  background-color: #8b2332;
+  border-color: #edaa00;
+}
+
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #edaa00;
+  background-color: #8b2332;
+  border-color: #edaa00;
+}
+
+.modal-header {
+  color: #edaa00;
+  background-color: #8b2332;
+}   
+
+.btn-default:hover, .btn-primary:hover {
+  color: #8b2332;
+  background-color: #edaa00;
+  border-color: #edaa00;
+} 
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+background-color: #8b2332;
+color: #edaa00;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+ 
+  margin-bottom: 60px;
+}
+
+
+.footer {
+  position: absolute;
+   bottom: 0;  
+   width: 100%;
+  height: 60px;
+  line-height: 60px; 
+   background-color: #8b2332;
+  color: #edaa00;
+}
+
+.tooltipHRS {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltipHRS .tooltiptextHRS {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+     z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
