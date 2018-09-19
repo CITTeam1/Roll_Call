@@ -13,6 +13,7 @@
                 @include('layouts.sessions')  
             <a href="/event/create/" class="btn btn-primary text-center">Add New Event</a>
             <!-- Current Events -->
+            <!-- Test Push -->
             <div class="card"><!--C Start-->
                 <div class="card-header">
                     <b>Current Events</b>
