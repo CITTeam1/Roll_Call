@@ -37,6 +37,12 @@ class CreateUsersTable extends Migration
             
             ['users_dept_id' => '21', 'name' => 'Theatre', 'email' => 'drama@bpcc.edu', 'password' => Hash::make('roll123')]
         );
+        B::table('users')->insert(
+
+            ['users_dept_id' => '15', 'name' => 'Test Login', 'email' => 'test@bpcc.edu', 'password' => Hash::make('roll123')]
+            
+        );
+
     }
 
     /**
