@@ -226,7 +226,7 @@ class AdmissionController extends Controller
         $student = $list->student; //init student status
         $employee = $list->employee; //inite employee status
 
-        //Creare Admission
+        //Create Admission
         $response = Admission::create(
             [
                 'admissions_event_id' => $eventid,
@@ -313,7 +313,7 @@ class AdmissionController extends Controller
             return ['denied'];
         }
 
-        //Creare Admission
+        //Create Admission
          Admission::where('admissions_lid', $lid)->where('admissions_event_id', $eventid)->update(
             [
                

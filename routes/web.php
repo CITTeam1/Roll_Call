@@ -35,6 +35,7 @@ Route::get('/event/admit/{id}/export/', 'AdmissionController@export');
 Route::post('/event/admit/{eventid}/student/find', 'AdmissionController@find');
 Route::get('/event/admit/{id}/out', 'AdmissionController@out');
 Route::post('/event/admit/{eventid}/update', 'AdmissionController@update');
+Route::get('/event/pointsPage', 'EventController@pointsPage'); //Route for point page -DB
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

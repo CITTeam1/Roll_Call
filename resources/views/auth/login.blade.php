@@ -6,15 +6,21 @@
 <div class = "container" style="margin-top:10%">
     <div class="row">
         <div class="col-md-12">
-        <h1 class="text-center">Roll Call</h1><br><br><br>
-
+        <h1 class="text-center">Roll Call</h1><br><br>
+        <!-- Adding Student Redirect /DB -->
+        <div class ="text-center">
+            <a class="btn btn-link" href="/event/pointsPage">
+                Student? Click here!
+            </a>
+        </div>
+        <!--Back to primarily Steven code -->                <br>
         <div class="row">
      <div class="col-md-3"></div>
     <div class="col-md-6">
                                 @include('layouts.errors')
                         @include('layouts.sessions')
             <div class="card">
-                <div class="card-header">Login</div>
+                <div class="card-header">Faculty Login</div> <!-- Change to "Faculty Login" /DB-->
                 <div class="card-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}

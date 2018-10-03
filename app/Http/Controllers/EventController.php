@@ -29,7 +29,9 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-
+    public function pointsPage(){ //Display point page -DB
+        return view ('posts.test-search');
+    }
     //create event form 
     public function create()
     {
