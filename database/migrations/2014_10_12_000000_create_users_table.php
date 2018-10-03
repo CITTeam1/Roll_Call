@@ -37,11 +37,7 @@ class CreateUsersTable extends Migration
             
             ['users_dept_id' => '21', 'name' => 'Theatre', 'email' => 'drama@bpcc.edu', 'password' => Hash::make('roll123')]
         );
-        B::table('users')->insert( //Tried to make a new login using these credentials. Not sure why it isn't working.
-
-            ['users_dept_id' => '21', 'name' => 'Test Login', 'email' => 'test@bpcc.edu', 'password' => Hash::make('roll123')]
-            
-        );
+        B::table('users')->insert( 
 
     }
 
