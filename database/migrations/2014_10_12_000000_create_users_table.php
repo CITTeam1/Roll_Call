@@ -37,11 +37,7 @@ class CreateUsersTable extends Migration
             
             ['users_dept_id' => '21', 'name' => 'Theatre', 'email' => 'drama@bpcc.edu', 'password' => Hash::make('roll123')]
         );
-<<<<<<< Updated upstream
-        B::table('users')->insert( 
-=======
-        
->>>>>>> Stashed changes
+
 
     }
 
