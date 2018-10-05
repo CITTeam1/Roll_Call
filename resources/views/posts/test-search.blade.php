@@ -15,10 +15,21 @@
 
                         <input style="width: 9em; text-align: center;" type="text" maxlength="9"  class="form-control" id="admitId" name="admitId" placeholder="L-ID" required="" autofocus="autofocus">
                         <div class="input-group-append">
-                            <button id="admitButton" class="btn btn-primary" type="button">Search</button>
+                            <button id="searchButton" class="btn btn-primary" type="button">Search</button>
                         </div>
                     </div> 
             <br><br><br>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+
+
+
+$('#searchButton').click(
+    function() {
+        findId($('#admitId').val());
+});
+
+</script>
