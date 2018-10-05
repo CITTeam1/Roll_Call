@@ -38,3 +38,5 @@ Route::post('/event/admit/{eventid}/update', 'AdmissionController@update');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get( '/event/pointsPage', 'GuestController@pointsPage');
+//Routing to point page -DB

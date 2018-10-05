@@ -13,7 +13,7 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-
+    
     public function __construct()
     {
         $this->middleware('auth');
@@ -29,7 +29,7 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-
+    
     //create event form 
     public function create()
     {

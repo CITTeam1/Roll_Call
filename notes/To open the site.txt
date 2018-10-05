@@ -1,0 +1,6 @@
+To open the site
+cd/var/www/Roll_Call
+sudo php artisan serve
+in chromium: http://127.0.0.1:8000/
+
+ctrl + c to stop the port
