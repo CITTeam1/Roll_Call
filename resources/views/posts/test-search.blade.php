@@ -25,11 +25,77 @@
 
 <script type="text/javascript">
 
+function findId(lid){ 
+    var message = "";
+    var mType = "";
+    var data = "";
 
+    if($.trim(lid) != ''){
+                $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+          $('#admitId').val("");
+        $.ajax({
+            url: '/event/findLID{id}',
+
+            method: "POST",
+
+            data: {lid:lid},
+
+            success: function (response) {
+
+                switch(response[0])
+                {
+                    
+
+                    break;
+                    case 'nolid':
+                    mType = "danger";
+
+                    message = "No L-ID on input."
+
+                    break;
+                    case 'dupe':
+                    mType = "warning";
+
+
+                    message = response[1].admissions_lid+": "+response[1].admissions_first_name+" "+response[1].admissions_last_name+" already admitted to event at "+cD+".";
+     
+
+                    break;
+                    case 'noconn':
+                    mType = "danger";
+
+                    message = "Cannot connect to database to search L-ID.";
+
+                    break;
+                    case 'denied':
+                    mType = "warning";
+
+                    message = "This person does not exist in the L-ID database for this event."
+
+                    break;
+                    case 'success':
+                    mType = "success";
+
+                    message = response[1].admissions_lid+": "+response[1].admissions_first_name+" "+response[1].admissions_last_name+" successfully added to admission to this event.";
+
+    }
+
+
+}
 
 $('#searchButton').click(
     function() {
         findId($('#admitId').val());
+});
+
+$(document).keypress(function(e) {
+    if(e.which == 13) {
+      findId($('#admitId').val());
+    }
 });
 
 </script>

@@ -39,5 +39,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+//Routes for redirect and search page
 Route::get( '/event/pointsPage', 'GuestController@pointsPage');
-//Routing to point page -DB
+
+//Route::get('/event/findLID/{id}', 'GuestControllerindex');
+
+//-DB
