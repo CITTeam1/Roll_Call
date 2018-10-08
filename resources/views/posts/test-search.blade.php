@@ -17,11 +17,30 @@
                         <div class="input-group-append">
                             <button id="searchButton" class="btn btn-primary" type="button">Search</button>
                         </div>
-                    </div> 
+                    </div>
             <br><br><br>
         </div>
     </div>
 </div>
+
+<div style="overflow: auto; width: 300px; height: 300px; ">
+    <table class = "awardstable">
+        <thead>
+            <tr>
+                <th>
+                Awards!
+                </th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                Pencil!
+                </td>
+            </tr>
+        </tbody>
+    </table>
+ </div>
 
 <script type="text/javascript">
 

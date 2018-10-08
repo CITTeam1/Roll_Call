@@ -220,7 +220,12 @@ th, tr{
   border-color: #edaa00;
 }
 
-
+.awardstable {
+  margin-left: auto;
+  margin-right: auto;
+  height: 60em;
+  overflow: scroll;
+}
 
 .modal-header {
   color: #edaa00;
