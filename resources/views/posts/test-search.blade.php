@@ -23,20 +23,40 @@
     </div>
 </div>
 
-<div style="overflow: auto; width: 300px; height: 300px; ">
-    <table class = "awardstable">
+<div class= "col-xl-10">
+    <table class = "table table-bordered">
         <thead>
             <tr>
-                <th>
-                Awards!
-                </th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Points Req</th>
             </tr>    
         </thead>
         <tbody>
             <tr>
-                <td>
-                Pencil!
-                </td>
+                <th scope="row"> Pencil</th>
+                <td>Great for notes, scantrons, and drawing</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row"> Notebook</th>
+                <td>Great for notes and homework</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th scope="row"> Usb</th>
+                <td>Great for saving things on the go</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">School Store</th>
+                <td>40% doff your next purchase</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th scope="row">School Store</th>
+                <td>50% off your next purchase</td>
+                <td>5</td>
             </tr>
         </tbody>
     </table>

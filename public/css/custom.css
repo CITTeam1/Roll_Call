@@ -220,17 +220,11 @@ th, tr{
   border-color: #edaa00;
 }
 
-.awardstable {
-  margin-left: auto;
-  margin-right: auto;
-  height: 60em;
-  overflow: scroll;
-}
-
 .modal-header {
   color: #edaa00;
   background-color: #8b2332;
 }   
+
 
 .btn-default:hover, .btn-primary:hover {
   color: #8b2332;
@@ -238,11 +232,13 @@ th, tr{
   border-color: #edaa00;
 } 
 
+
 .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
 background-color: #8b2332;
 color: #edaa00;
 text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
+
 
 html {
   position: relative;
