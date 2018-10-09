@@ -200,7 +200,6 @@ th, tr{
 }
 
 .table-wrapper-scroll-y{
-  flex: center;
   display: block;
   max-height: 200px;
   max-width: 500px;

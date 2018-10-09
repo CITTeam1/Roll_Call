@@ -51,7 +51,7 @@
                 </tr>
                 <tr>
                     <th scope="row">School Store</th>
-                    <td>40% doff your next purchase</td>
+                    <td>40% off your next purchase</td>
                     <td>4</td>
                 </tr>
                 <tr>
