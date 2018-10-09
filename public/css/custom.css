@@ -195,6 +195,19 @@ th, tr{
   text-align: right;
 }
 
+.awards th, tr{
+  text-align: center;
+}
+
+.table-wrapper-scroll-y{
+  flex: center;
+  display: block;
+  max-height: 200px;
+  max-width: 500px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
 .card-body {
    color: #8b2332;
   background-color: #eee;

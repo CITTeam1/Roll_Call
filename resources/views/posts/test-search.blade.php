@@ -22,46 +22,72 @@
         </div>
     </div>
 </div>
-
-<div class= "col-xl-10">
-    <table class = "table table-bordered">
-        <thead>
-            <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Description</th>
-                <th scope="col">Points Req</th>
-            </tr>    
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row"> Pencil</th>
-                <td>Great for notes, scantrons, and drawing</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <th scope="row"> Notebook</th>
-                <td>Great for notes and homework</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <th scope="row"> Usb</th>
-                <td>Great for saving things on the go</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <th scope="row">School Store</th>
-                <td>40% doff your next purchase</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <th scope="row">School Store</th>
-                <td>50% off your next purchase</td>
-                <td>5</td>
-            </tr>
-        </tbody>
-    </table>
- </div>
-
+<!-- zc code for scrollable awards table -->
+<div class="d-flex justify-content-center">
+    <div class= "table-wrapper-scroll-y">
+        <table class = "awards table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Points Req</th>
+                </tr>    
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"> Pencil</th>
+                    <td>Great for notes, scantrons, and drawing</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row"> Notebook</th>
+                    <td>Great for notes and homework</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th scope="row"> Usb</th>
+                    <td>Great for saving things on the go</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="row">School Store</th>
+                    <td>40% doff your next purchase</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th scope="row"">School Store</th>
+                    <td>50% off your next purchase</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="row"">Item</th>
+                    <td>Detailed description</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row"">Item</th>
+                    <td>Detailed description</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row"">Item</th>
+                    <td>Detailed description</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row"">Item</th>
+                    <td>Detailed description</td>
+                    <td>#</td>
+                </tr>
+                <tr>
+                    <th scope="row"">Item</th>
+                    <td>Detailed description</td>
+                    <td>#</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+</div>
 <script type="text/javascript">
 
 
