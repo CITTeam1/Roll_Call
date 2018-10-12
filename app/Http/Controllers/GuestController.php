@@ -14,8 +14,17 @@ class GuestController extends Controller{
         return view ('posts.test-search');
     }
     //trying to point to the id the user enetered -DB
-    public function findLID(){
-    	$event = $this->getEvent($id);
-    	return 9;
+    public function findLID($lid){
+
+    	$id = Request::get('admitId');
+
+    	$result = DB::table('people')
+    		->select(DB::raw("*"))
+    		->where('lid', '=', $id)
+    		->get();
+
+
+    	//$id = $this->getEvent($id);
+    	return view('posts.test-search', $id);
     //}
-}
+}}

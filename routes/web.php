@@ -42,6 +42,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Routes for redirect and search page
 Route::get( '/event/pointsPage', 'GuestController@pointsPage');
 
-//Route::get('/event/findLID/{id}', 'GuestControllerindex');
+Route::get('/event/findId/{lid}', 'GuestController@findLID');
+//Probably need a post route =DB
 
 //-DB

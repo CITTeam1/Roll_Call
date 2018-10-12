@@ -22,6 +22,10 @@
         </div>
     </div>
 </div>
+    <div class="col-xl-10">
+        <p name ="name" class="text-center">Hello (insert name here), you have (x) points</p></div>
+        
+
 
 <script type="text/javascript">
 
@@ -31,14 +35,9 @@ function findId(lid){
     var data = "";
 
     if($.trim(lid) != ''){
-                $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
           $('#admitId').val("");
         $.ajax({
-            url: '/event/findLID{id}',
+            url:'/event/findLID{lid}',
 
             method: "POST",
 
@@ -79,13 +78,13 @@ function findId(lid){
                     break;
                     case 'success':
                     mType = "success";
-
-                    message = response[1].admissions_lid+": "+response[1].admissions_first_name+" "+response[1].admissions_last_name+" successfully added to admission to this event.";
+                    window.alert("Hey");
 
     }
 
 
-}
+
+}}}}
 
 $('#searchButton').click(
     function() {
