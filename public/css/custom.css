@@ -202,7 +202,7 @@ th, tr{
 .table-wrapper-scroll-y{
   display: block;
   max-height: 200px;
-  max-width: 500px;
+  max-width: 450px;
   overflow-y: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }

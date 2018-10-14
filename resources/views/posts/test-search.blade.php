@@ -23,7 +23,10 @@
     </div>
 </div>
 <!-- zc code for scrollable awards table -->
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-between">
+    <div>
+        
+    </div>
     <div class= "table-wrapper-scroll-y">
         <table class = "awards table-bordered table-sm">
             <thead>
@@ -86,6 +89,9 @@
                 </tr>
             </tbody>
         </table>
+     </div>
+     <div>
+         
      </div>
 </div>
 <script type="text/javascript">
