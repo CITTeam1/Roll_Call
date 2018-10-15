@@ -22,11 +22,13 @@
         </div>
     </div>
 </div>
-<!-- zc code for scrollable awards table -->
+<!--zc code for body of page-->
 <div class="d-flex justify-content-between">
+    <!-- scrollable event updater possibly use iframe -->
     <div>
         
     </div>
+    <!-- zc code for scrollable awards table -->
     <div class= "table-wrapper-scroll-y">
         <table class = "awards table-bordered table-sm">
             <thead>
@@ -90,6 +92,7 @@
             </tbody>
         </table>
      </div>
+     <!--for icon/links and links to other pages-->
      <div>
          
      </div>
