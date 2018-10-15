@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <div class="container-fluid" style="margin-top: 7%">
     <div class="row">
         <div class="col-xl-1">
@@ -35,56 +36,15 @@ function findId(lid){
     var data = "";
 
     if($.trim(lid) != ''){
-          $('#admitId').val("");
-        $.ajax({
-            url:'/event/findLID{lid}',
-
-            method: "POST",
-
-            data: {lid:lid},
-
-            success: function (response) {
-
-                switch(response[0])
-                {
-                    
-
-                    break;
-                    case 'nolid':
-                    mType = "danger";
-
-                    message = "No L-ID on input."
-
-                    break;
-                    case 'dupe':
-                    mType = "warning";
-
-
-                    message = response[1].admissions_lid+": "+response[1].admissions_first_name+" "+response[1].admissions_last_name+" already admitted to event at "+cD+".";
-     
-
-                    break;
-                    case 'noconn':
-                    mType = "danger";
-
-                    message = "Cannot connect to database to search L-ID.";
-
-                    break;
-                    case 'denied':
-                    mType = "warning";
-
-                    message = "This person does not exist in the L-ID database for this event."
-
-                    break;
-                    case 'success':
-                    mType = "success";
-                    window.alert("Hey");
-
+        console.log(lid); // Testing to assure I'm getting the variable. DELETE LATER -DAKOTA
+        //$.get("/event/pointsPage/findId/{lid}", {'lid'})}
+    else{
+        console.log ("You're an idiot."); //Rubber duck. - DAKOTA
     }
+    //return lid;
 
 
-
-}}}}
+}
 
 $('#searchButton').click(
     function() {

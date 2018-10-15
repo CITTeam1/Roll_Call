@@ -6,6 +6,8 @@ use App\Event;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use App\Person;
+use App\Admission;
+use DB;
 
 class GuestController extends Controller{
 	/* Controller specifically for handling events that don't need a login.
@@ -14,17 +16,17 @@ class GuestController extends Controller{
         return view ('posts.test-search');
     }
     //trying to point to the id the user enetered -DB
-    public function findLID($lid){
-
-    	$id = Request::get('admitId');
-
+    public function findLID($lid){ //Returns matching first last and lid.
+    	//E.X. http://127.0.0.1:8000/event/pointsPage/findId/L01430811
+    	echo $lid;
+    	
     	$result = DB::table('people')
-    		->select(DB::raw("*"))
-    		->where('lid', '=', $id)
-    		->get();
+    		->select(DB::raw("lid,last_name,first_name"))
+    		->where('lid', '=', $lid)
+    		->get('lid', 'first_name', 'last_name');
 
+    	echo $result; 
 
-    	//$id = $this->getEvent($id);
-    	return view('posts.test-search', $id);
+    	//return view('posts.test-search', $lid);
     //}
 }}
