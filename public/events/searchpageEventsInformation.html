@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTMl 1.0 Transional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+			<title>Event Links</title>
+			<link rel="stylesheet" type="text/css" href="../css/customcss.css" />
+				<style type="text/css">
+					body{
+						font-size: 110%;
+					}	
+					p.alert{
+						font-size: 120%;
+						color: #F00;
+					}
+				</style>
+	</head>
+	<!-- -->
+	<body>
+		<div id="datacontainer" style="position: absolute;left: 1px;top:10px;width: 100%" onmouseover="scrollspeed=0" onmouseout="scrollspeed=cache">
+			<!--Add scroller content here -->
+			<!--adds space to the top of the scroller -->
+			<p>&nbsp;</p>
+
+			<!--scroller text goes here -->
+			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+				<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+				<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+				<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+				<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
+
+		</div>
+		<!--ends divid container -->
+		<!--End scroller content -->
+
+		<script type="text/javascript">
+		/*********************************
+		*IFRAM Scroller script- @Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		*This notice MUST stay intact for legal use
+		*Visit Dynamic Dribr at http://www.dynamicdrive.com/ for full source code
+		**********************************/
+
+		//Specify speed of scroll. Larger Int= faster (i.e 5)
+		var scrollspeed=cache=1
+
+		//Specify initial delay before scroller starts scrolling(milliseconds)
+		var initialdelay=500
+
+		function initializeScroller() {
+			dataobj=document.all? document.all.datacontainer : document.getElementById("datacontainer")
+			dataobj.style.top="5px"
+			setTimeout("getdataheight()", initialdelay)
+		}
+
+			function getdataheight() {
+				thelength=dataobj.offsetHeight
+				if (thelength==0)
+					setTimeout("getdataheight()",10)
+				else
+					scrollDiv()
+			}
+
+				function scrollDiv() {
+					dataobj.style.top=parseInt(dataobj.style.top)-scrollspeed+"px"
+					if(parseInt(dataobj.style.top)<thelength*(-1))
+						dataobj.style.top="5px"
+					else
+						setTimeout("scrollDiv()",40)
+				}
+
+		if(window.addEventListener)
+			window.addEventListener("load", initializeScroller, false)
+		else if (window.attachEvent)
+			window.attachEvent("onload", initializeScroller)
+		else
+			window.onload=initializeScroller
+		</script>
+	</body>
+</html>
