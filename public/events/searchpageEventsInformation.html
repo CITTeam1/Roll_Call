@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTMl 1.0 Transional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 	<head>
-		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<title>Event Links</title>
 			<link rel="stylesheet" type="text/css" href="../css/customcss.css" />
 				<style type="text/css">
@@ -24,6 +24,7 @@
 			<p>&nbsp;</p>
 
 			<!--scroller text goes here -->
+			<!-- Add target ="_blank" for pages to open a new tab-->
 			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
 				<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
 			<p><strong>text here</strong><a href="http://www.bpcc.edu" target="_blank"><em>link goes here</em></a></p>
@@ -40,7 +41,7 @@
 
 		<script type="text/javascript">
 		/*********************************
-		*IFRAM Scroller script- @Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		*IFRAME Scroller script- @Dynamic Drive DHTML code library (www.dynamicdrive.com)
 		*This notice MUST stay intact for legal use
 		*Visit Dynamic Dribr at http://www.dynamicdrive.com/ for full source code
 		**********************************/
@@ -69,11 +70,10 @@
 					dataobj.style.top=parseInt(dataobj.style.top)-scrollspeed+"px"
 					if(parseInt(dataobj.style.top)<thelength*(-1))
 						dataobj.style.top="5px"
-					else
 						setTimeout("scrollDiv()",40)
 				}
 
-		if(window.addEventListener)
+		if (window.addEventListener)
 			window.addEventListener("load", initializeScroller, false)
 		else if (window.attachEvent)
 			window.attachEvent("onload", initializeScroller)
