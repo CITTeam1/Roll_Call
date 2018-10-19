@@ -22,72 +22,115 @@
         </div>
     </div>
 </div>
-<!-- zc code for scrollable awards table -->
-<div class="d-flex justify-content-center">
-    <div class= "table-wrapper-scroll-y">
-        <table class = "awards table-bordered table-sm">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Points Req</th>
-                </tr>    
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row"> Pencil</th>
-                    <td>Great for notes, scantrons, and drawing</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <th scope="row"> Notebook</th>
-                    <td>Great for notes and homework</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <th scope="row"> Usb</th>
-                    <td>Great for saving things on the go</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <th scope="row">School Store</th>
-                    <td>40% off your next purchase</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <th scope="row"">School Store</th>
-                    <td>50% off your next purchase</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <th scope="row"">Item</th>
-                    <td>Detailed description</td>
-                    <td>#</td>
-                </tr>
-                <tr>
-                    <th scope="row"">Item</th>
-                    <td>Detailed description</td>
-                    <td>#</td>
-                </tr>
-                <tr>
-                    <th scope="row"">Item</th>
-                    <td>Detailed description</td>
-                    <td>#</td>
-                </tr>
-                <tr>
-                    <th scope="row"">Item</th>
-                    <td>Detailed description</td>
-                    <td>#</td>
-                </tr>
-                <tr>
-                    <th scope="row"">Item</th>
-                    <td>Detailed description</td>
-                    <td>#</td>
-                </tr>
-            </tbody>
-        </table>
-     </div>
+<!--zc code for body of page-->
+<div>
+    <table width = 99% border="0" cellspacing="0" cellpadding="2" class="col">
+        <tbody>
+            <tr>
+                <td width="33%" align="center" valign="top">
+                    <!-- scrollable event updater possibly use iframe -->
+                     Events/Important Information
+                    <!-- line break -->
+                    <br>
+                    <!-- IFRAME Scroller Start-->
+                    <script type="text/javascript">
+
+                    /*********************************
+                    *IFRAM Scroller script- @Dynamic Drive DHTML code library (www.dynamicdrive.com)
+                    *This notice MUST stay intact for legal use
+                    *Visit Dynamic Dribr at http://www.dynamicdrive.com/ for full source code
+                    **********************************/
+
+                    //specify path to your external page:
+                    //for regular anouncments use "events/mainpage.html"
+                    //but that page is not connected to this project so 
+                    //so use "searchpageEventsInformation.html" for the time being
+                    //for college closure annoucements, replace with "events/mainpage-closure.html" or "events/mainpage-closure-noscroll.html"
+
+                    var iframesrc="../events/searchpageEventsInformation.html"
+
+                    //you may change most attributes of iframe tag below
+                    document.write('<iframe id="datamain" src="'+iframesrc+'" height="200px" marginwidth="0" marginheight="0" vspace="20" frameborder="0" scrolling="no"></iframe>')
+
+                    </script>
+                </td>
+                <td width="33%" align="left" valign="top">
+                <!-- zc code for scrollable awards table -->
+                    <div class= "table-wrapper-scroll-y">
+                        <table class = "awards table-bordered table-sm">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Points Req</th>
+                                </tr>    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"> Pencil</th>
+                                    <td>Great for notes, scantrons, and drawing</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> Notebook</th>
+                                    <td>Great for notes and homework</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> Usb</th>
+                                    <td>Great for saving things on the go</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">School Store</th>
+                                    <td>40% off your next purchase</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"">School Store</th>
+                                    <td>50% off your next purchase</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"">Item</th>
+                                    <td>Detailed description</td>
+                                    <td>#</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"">Item</th>
+                                    <td>Detailed description</td>
+                                    <td>#</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"">Item</th>
+                                    <td>Detailed description</td>
+                                    <td>#</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"">Item</th>
+                                    <td>Detailed description</td>
+                                    <td>#</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"">Item</th>
+                                    <td>Detailed description</td>
+                                    <td>#</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+                <td width="34%" align="left" valign="top">
+                    <!--for icon/links and links to other pages-->
+                    <div>
+                         
+                    </div>
+                </td>
+            </tr>
+         </tbody>
+     </table>
 </div>
+
 <script type="text/javascript">
 
 
