@@ -22,13 +22,14 @@
         </div>
     </div>
 </div>
-<!--zc code for body of page-->
+<!--Code for body of page zc-->
 <div>
     <table width = 99% border="0" cellspacing="0" cellpadding="2" class="col">
         <tbody>
             <tr>
+                <!--Left section of the page zc-->
                 <td width="33%" align="center" valign="top">
-                    <!-- scrollable event updater possibly use iframe -->
+                    <!-- scrollable event updater using iframe zc-->
                      Events/Important Information
                     <!-- line break -->
                     <br>
@@ -54,14 +55,16 @@
 
                     </script>
 
+                    <!--Link to Bpcc Calendar page zc-->
                     <p>&nbsp;</p>
                         <p>
                             <a href="http://www.bpcc.edu/calendars/events/index.html" target="_blank">View more on the Bpcc Events Calender</a>
                         </p>
 
                 </td>
+                <!--Middle section of the page zc-->
                 <td width="33%" align="left" valign="top">
-                <!-- zc code for scrollable awards table -->
+                <!--Code for scrollable awards table zc-->
                     <div class= "table-wrapper-scroll-y">
                         <table class = "awards table-bordered table-sm">
                             <thead>
@@ -125,6 +128,7 @@
                             </tbody>
                         </table>
                     </div>
+                    <!--Link to login page zc-->
                         <p>&nbsp;</p>
                             <p>&nbsp;</p>
                                 <p align="center">
@@ -132,9 +136,10 @@
                                 </p>
                     
                 </td>
+                <!--Right section of the page zc-->
                 <td width="34%" align="center" valign="top">
                     <div>
-                    <!--for buttons/links to other pages-->
+                    <!--for buttons/links to other pages zc-->
                     <p>
                         <a href="http://www.bpcc.edu/admissions/application/index.html"><img src="../images/buttons/applynow.jpg" title="Apply Now" alt="Apply Now" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/applynow_hl.jpg'" onmouseout="this.src='../images/buttons/applynow.jpg'"></a>
                     </p>
@@ -148,64 +153,64 @@
                         <a href="http://www.bpccfoundation.org"><img src="../images/buttons/supportbpcc.jpg" title="Support bpcc" alt="Support bpcc" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/supportbpcc_hl.jpg'" onmouseout="this.src='../images/buttons/supportbpcc.jpg'"></a>
                     </p>
 
-                    <!-- Table below the buttons to orginize the icons and links-->
-                    <table width = 99% border="0" cellspacing="0" cellpadding="2" id="followbpcc">
+                        <!-- Table below the buttons to orginize the icons and links zc-->
+                        <table width = 99% border="0" cellspacing="0" cellpadding="2" id="followbpcc">
 
-                        <tbody>
-                            <!-- Top row of icons -->
-                            <tr>
-                                <td width="30%" align="center" valign="middle">
-                                    <a href="http://www.bpcc.edu/lola/login/index.html" target="_blank">
-                                        <img src="../images/icons/lola.png" alt="Sign into LOLA" title="Sign into LOLA" width="50" height="50" border="0">
-                                    </a>
-                                        <br>
-                                            LOLA
-                                </td>
+                            <tbody>
+                                <!-- Top row of icons zc-->
+                                <tr>
+                                    <td width="30%" align="center" valign="middle">
+                                        <a href="http://www.bpcc.edu/lola/login/index.html" target="_blank">
+                                            <img src="../images/icons/lola.png" alt="Sign into LOLA" title="Sign into LOLA" width="50" height="50" border="0">
+                                        </a>
+                                            <br>
+                                                LOLA
+                                    </td>
 
-                                <td width="30%" align="center" valign="middle">
-                                    <a href="https://my.bpcc.edu" target="_blank">
-                                        <img src="../images/icons/mybpcc.png" alt="Sign into myBPCC" title="Sign into myBPCC" width="50" height="50" border="0">
-                                    </a>
-                                        <br>
-                                            myBPCC
-                                </td>
+                                    <td width="30%" align="center" valign="middle">
+                                        <a href="https://my.bpcc.edu" target="_blank">
+                                            <img src="../images/icons/mybpcc.png" alt="Sign into myBPCC" title="Sign into myBPCC" width="50" height="50" border="0">
+                                        </a>
+                                            <br>
+                                                myBPCC
+                                    </td>
 
-                                <td width="30%" align="center" valign="middle">
-                                    <a href="http://www.bpcc.edu/email/index.html"target= "_blank">
-                                        <img src="../images/icons/email.png" alt="Email" title="Email" width="50" height="50" border="0">
-                                    </a>
-                                        <br>
-                                            Email
-                                </td>
-                            </tr>
-                            <!-- Bottom row of icons -->
-                            <tr>
-                                <td align="center" valign="middle">
-                                    <a href="http://www.facebook.com/pages/Bossier-City-LA/Bossier-Parish-Community-College/131395030236355?ref=sgm" target="_blank">
-                                        <img src="../images/icons/facebook.png" alt="Facebook" title="Follow Bpcc on Facebook" width="50" height="50" border="0">
-                                    </a>
-                                        <br>
-                                            Facebook
-                                </td>
+                                    <td width="30%" align="center" valign="middle">
+                                        <a href="http://www.bpcc.edu/email/index.html"target= "_blank">
+                                            <img src="../images/icons/email.png" alt="Email" title="Email" width="50" height="50" border="0">
+                                        </a>
+                                            <br>
+                                                Email
+                                    </td>
+                                </tr>
+                                <!-- Bottom row of icons zc-->
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <a href="http://www.facebook.com/pages/Bossier-City-LA/Bossier-Parish-Community-College/131395030236355?ref=sgm" target="_blank">
+                                            <img src="../images/icons/facebook.png" alt="Facebook" title="Follow Bpcc on Facebook" width="50" height="50" border="0">
+                                        </a>
+                                            <br>
+                                                Facebook
+                                    </td>
 
-                                <td align="center" valign="middle">
-                                    <a href="http://twitter.com/bpcccavs" target="_blank">
-                                        <img src="../images/icons/twitter.png" alt="Follow Bpcc on Twitter" title="Twitter" width="50" height="50" border="0">
-                                    </a>
-                                        <br>
-                                            Twitter
-                                </td>
+                                    <td align="center" valign="middle">
+                                        <a href="http://twitter.com/bpcccavs" target="_blank">
+                                            <img src="../images/icons/twitter.png" alt="Follow Bpcc on Twitter" title="Twitter" width="50" height="50" border="0">
+                                        </a>
+                                            <br>
+                                                Twitter
+                                    </td>
 
-                                <td align="center" valign="middle">
-                                    <a href="http://www.bpcc.edu/emergency/index.html" target="_blank">
-                                        <img src="../images/icons/cavalert.png" alt="CAValert: Register Now" title="CAValert: Register Now" width="50" height="50" border="0">
-                                    </a>
-                                        <br>
-                                            CAVSalert
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                    <td align="center" valign="middle">
+                                        <a href="http://www.bpcc.edu/emergency/index.html" target="_blank">
+                                            <img src="../images/icons/cavalert.png" alt="CAValert: Register Now" title="CAValert: Register Now" width="50" height="50" border="0">
+                                        </a>
+                                            <br>
+                                                CAVSalert
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </td>
             </tr>
