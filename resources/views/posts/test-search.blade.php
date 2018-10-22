@@ -53,6 +53,12 @@
                     document.write('<iframe id="datamain" src="'+iframesrc+'" height="200px" marginwidth="0" marginheight="0" vspace="20" frameborder="0" scrolling="no"></iframe>')
 
                     </script>
+
+                    <p>&nbsp;</p>
+                        <p>
+                            <a href="http://www.bpcc.edu/calendars/events/index.html" target="_blank">View more on the Bpcc Events Calender</a>
+                        </p>
+
                 </td>
                 <td width="33%" align="left" valign="top">
                 <!-- zc code for scrollable awards table -->
@@ -119,6 +125,12 @@
                             </tbody>
                         </table>
                     </div>
+                        <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                                <p align="center">
+                                    <a href="../login">Teachers and Faculty click here to login</a>
+                                </p>
+                    
                 </td>
                 <td width="34%" align="center" valign="top">
                     <div>
