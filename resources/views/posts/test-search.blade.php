@@ -138,8 +138,44 @@
 
                     <table width = 99% border="0" cellspacing="0" cellpadding="2" id="followbpcc">
                         <tbody>
-                            <tr></tr>
-                            <tr></tr>
+                            <tr>
+                                <td width="30%" align="center" valign="middle">
+                                    <a href="http://www.bpcc.edu/lola/login/index.html" target="_blank">
+                                        <img src="../images/icons/lola.png" alt="Sign into LOLA" title="Sign into LOLA" width="50" height="50" border="0">
+                                    </a>
+                                    <br>
+                                    LOLA
+                                </td>
+
+                                    <td width="5%">&nbsp;</td>
+
+                                <td width="30%" align="center" valign="middle">
+                                    
+                                </td>
+
+                                    <td width="5%">&nbsp;</td>
+
+                                <td width="30%" align="center" valign="middle">
+                                    <a href=""></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="30%" align="center" valign="middle">
+                                    <a href=""></a>
+                                </td>
+
+                                    <tdwidth="5%">&nbsp;</td>
+
+                                <td width="30%" align="center" valign="middle">
+                                    <a href=""></a>
+                                </td>
+
+                                    <tdwidth="5%">&nbsp;</td>
+
+                                <td width="30%" align="center" valign="middle">
+                                    <a href=""></a>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     </div>
