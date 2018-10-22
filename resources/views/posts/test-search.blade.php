@@ -150,7 +150,11 @@
                                     <td width="5%">&nbsp;</td>
 
                                 <td width="30%" align="center" valign="middle">
-                                    
+                                    <a href="https://my.bpcc.edu" target="_blank">
+                                        <img src="../images/icons/mybpcc.png" alt="Sign into myBPCC" title="Sign into myBPCC" width="50" height="50" border="0">
+                                    </a>
+                                    <br>
+                                    myBPCC
                                 </td>
 
                                     <td width="5%">&nbsp;</td>
