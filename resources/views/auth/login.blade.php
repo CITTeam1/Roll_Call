@@ -6,7 +6,7 @@
 <div class = "container" style="margin-top:10%">
     <div class="row">
         <div class="col-md-12">
-        <h1 class="text-center">Roll Call</h1><br><br>
+        <h1 class="text-center">Roll Call</h1><br>
         <!-- Adding Student Redirect /DB -->
         <div class ="text-center">
             <a class="btn btn-link" href="/event/pointsPage">
@@ -89,5 +89,9 @@
     </div>
         </div>
     </div>
+</div>
+<!--Adds a space at the bottom between the header and the login container zc-->
+<div>
+    <p>&nbsp;</p>
 </div>
 @endsection

@@ -199,12 +199,19 @@ th, tr{
   text-align: center;
 }
 
-.table-wrapper-scroll-y{
+
+.table-wrapper-scroll-y thead{
+  display: block;
+  width: 100%;
+}
+
+.table-wrapper-scroll-y tbody{
   display: block;
   max-height: 250px;
   max-width: 500px;
   overflow-y: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  width: 100%;
 }
 
 .card-body {
