@@ -18,15 +18,14 @@ class GuestController extends Controller{
     //trying to point to the id the user enetered -DB
     public function findLID($lid){ //Returns matching first last and lid.
     	//E.X. http://127.0.0.1:8000/event/pointsPage/findId/L01430811
-    	echo $lid;
+
     	
     	$result = DB::table('people')
     		->select(DB::raw("lid,last_name,first_name"))
     		->where('lid', '=', $lid)
     		->get('lid', 'first_name', 'last_name');
 
-    	echo $result; 
-
-    	//return view('posts.test-search', $lid);
+    	return view('posts.test-search', compact('lid'));
     //}
+
 }}

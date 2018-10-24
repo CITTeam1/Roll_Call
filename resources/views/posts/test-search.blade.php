@@ -24,7 +24,8 @@
     </div>
 </div>
     <div class="col-xl-10">
-        <p name ="name" class="text-center">Hello (insert name here), you have (x) points</p></div>
+        <p name ="name" class="text-center">Hello (insert name here), you have (x) points</p>
+    </div>
         
 
 
@@ -36,14 +37,8 @@ function findId(lid){
     var data = "";
 
     if($.trim(lid) != ''){
-        console.log(lid); // Testing to assure I'm getting the variable. DELETE LATER -DAKOTA
-        //$.get("/event/pointsPage/findId/{lid}", {'lid'})}
-    else{
-        console.log ("You're an idiot."); //Rubber duck. - DAKOTA
+            console.log(lid); // Testing...
     }
-    //return lid;
-
-
 }
 
 $('#searchButton').click(
