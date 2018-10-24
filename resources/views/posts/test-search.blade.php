@@ -69,16 +69,16 @@
                         <table class = "awards table-bordered table-sm">
                             <thead>
                                 <tr>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Description</th>
-                                    <th scope="col">Points Req</th>
+                                    <th width="24%">Name</th>
+                                    <th width="53%">Description</th>
+                                    <th width="24%">Points Req</th>
                                 </tr>    
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row"> Pencil</th>
-                                    <td>Great for notes, scantrons, and drawing</td>
-                                    <td>1</td>
+                                    <th width="25%">Pencil</th>
+                                    <td width="55%">Great for notes, scantrons, and drawing</td>
+                                    <td width="20%">1</td>
                                 </tr>
                                 <tr>
                                     <th scope="row"> Notebook</th>
