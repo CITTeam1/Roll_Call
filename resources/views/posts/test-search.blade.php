@@ -122,7 +122,7 @@
                 </td>
                 <td width="34%" align="center" valign="top">
                     <div>
-                    <!--for icon/links and links to other pages-->
+                    <!--for buttons/links to other pages-->
                     <p>
                         <a href="http://www.bpcc.edu/admissions/application/index.html"><img src="../images/buttons/applynow.jpg" title="Apply Now" alt="Apply Now" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/applynow_hl.jpg'" onmouseout="this.src='../images/buttons/applynow.jpg'"></a>
                     </p>
@@ -136,10 +136,62 @@
                         <a href="http://www.bpccfoundation.org"><img src="../images/buttons/supportbpcc.jpg" title="Support bpcc" alt="Support bpcc" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/supportbpcc_hl.jpg'" onmouseout="this.src='../images/buttons/supportbpcc.jpg'"></a>
                     </p>
 
+                    <!-- Table below the buttons to orginize the icons and links-->
                     <table width = 99% border="0" cellspacing="0" cellpadding="2" id="followbpcc">
+
                         <tbody>
-                            <tr></tr>
-                            <tr></tr>
+                            <!-- Top row of icons -->
+                            <tr>
+                                <td width="30%" align="center" valign="middle">
+                                    <a href="http://www.bpcc.edu/lola/login/index.html" target="_blank">
+                                        <img src="../images/icons/lola.png" alt="Sign into LOLA" title="Sign into LOLA" width="50" height="50" border="0">
+                                    </a>
+                                        <br>
+                                            LOLA
+                                </td>
+
+                                <td width="30%" align="center" valign="middle">
+                                    <a href="https://my.bpcc.edu" target="_blank">
+                                        <img src="../images/icons/mybpcc.png" alt="Sign into myBPCC" title="Sign into myBPCC" width="50" height="50" border="0">
+                                    </a>
+                                        <br>
+                                            myBPCC
+                                </td>
+
+                                <td width="30%" align="center" valign="middle">
+                                    <a href="http://www.bpcc.edu/email/index.html"target= "_blank">
+                                        <img src="../images/icons/email.png" alt="Email" title="Email" width="50" height="50" border="0">
+                                    </a>
+                                        <br>
+                                            Email
+                                </td>
+                            </tr>
+                            <!-- Bottom row of icons -->
+                            <tr>
+                                <td align="center" valign="middle">
+                                    <a href="http://www.facebook.com/pages/Bossier-City-LA/Bossier-Parish-Community-College/131395030236355?ref=sgm" target="_blank">
+                                        <img src="../images/icons/facebook.png" alt="Facebook" title="Follow Bpcc on Facebook" width="50" height="50" border="0">
+                                    </a>
+                                        <br>
+                                            Facebook
+                                </td>
+
+                                <td align="center" valign="middle">
+                                    <a href="http://twitter.com/bpcccavs" target="_blank">
+                                        <img src="../images/icons/twitter.png" alt="Follow Bpcc on Twitter" title="Twitter" width="50" height="50" border="0">
+                                    </a>
+                                        <br>
+                                            Twitter
+                                </td>
+
+                                <td align="center" valign="middle">
+                                    <a href="http://www.bpcc.edu/emergency/index.html" target="_blank">
+                                        <img src="../images/icons/cavalert.png" alt="CAValert: Register Now" title="CAValert: Register Now" width="50" height="50" border="0">
+                                    </a>
+                                        <br>
+                                            CAVSalert
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     </div>
