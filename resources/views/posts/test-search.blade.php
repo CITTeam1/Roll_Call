@@ -30,9 +30,9 @@
                 <!--Left section of the page zc-->
                 <td width="33%" align="center" valign="top">
                     <!-- scrollable event updater using iframe zc-->
-                     Events/Important Information
-                    <!-- line break -->
-                    <br>
+                    <!-- Title/heading for Iframe event updater zc-->
+                    <h3> Events/Important Information </h3>
+                    
                     <!-- IFRAME Scroller Start-->
                     <script type="text/javascript">
 
