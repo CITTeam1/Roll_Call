@@ -66,6 +66,13 @@ article > header > .row > time.col {
     color: #999;
     font-style: italic;
 }
+article > header > .row > .col {
+    flex: 2;
+    text-align: center;
+    white-space: nowrap;
+    color: #999;
+    font-style: italic;
+}
 article > header ul.tags {
     list-style: none;
     padding: 0;
