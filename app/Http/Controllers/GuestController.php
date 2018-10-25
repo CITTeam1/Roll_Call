@@ -25,7 +25,8 @@ class GuestController extends Controller{
     		->where('lid', '=', $lid)
     		->get('lid', 'first_name', 'last_name');
 
-    	return view('posts.test-search', compact('lid'));
+    	$data = 'sample string';
+    	return view('posts.test-search', compact('data'));
     //}
 
 }}
