@@ -31,7 +31,7 @@
                 <td width="33%" align="center" valign="top">
                     <!-- scrollable event updater using iframe zc-->
                     <!-- Title/heading for Iframe event updater zc-->
-                    <h3> Events/Important Information </h3>
+                    <h3 class="past-events">Past Events Visted</h3>
                     
                     <!-- IFRAME Scroller Start-->
                     <script type="text/javascript">
@@ -56,25 +56,26 @@
                     </script>
 
                     <!--Link to Bpcc Calendar page zc-->
+                    <!--
                     <p>&nbsp;</p>
                         <p>
                             <a href="http://www.bpcc.edu/calendars/events/index.html" target="_blank">View more on the Bpcc Events Calender</a>
                         </p>
-
+                    -->
                 </td>
                 <!--Middle section of the page zc-->
                 <td width="33%" align="left" valign="top">
                 <!--Code for scrollable awards table zc-->
                     <div class= "table-wrapper-scroll-y">
-                        <table class = "awards table-bordered table-sm">
+                        <table class = "awards table-bg">
                             <thead>
                                 <tr>
                                     <th width="24%">Name</th>
-                                    <th width="53%">Description</th>
-                                    <th width="24%">Points Req</th>
+                                    <th width="54%">Description</th>
+                                    <th width="23%">Points Req</th>
                                 </tr>    
                             </thead>
-                            <tbody>
+                            <tbody class="table">
                                 <tr>
                                     <th width="25%">Pencil</th>
                                     <td width="55%">Great for notes, scantrons, and drawing</td>
@@ -129,28 +130,37 @@
                         </table>
                     </div>
                     <!--Link to login page zc-->
+                    <!--
                         <p>&nbsp;</p>
-                            <p>&nbsp;</p>
                                 <p align="center">
                                     <a href="../login">Teachers and Faculty click here to login</a>
                                 </p>
-                    
+                    -->
                 </td>
                 <!--Right section of the page zc-->
                 <td width="34%" align="center" valign="top">
                     <div>
                     <!--for buttons/links to other pages zc-->
+                    <!--
                     <p>
                         <a href="http://www.bpcc.edu/admissions/application/index.html"><img src="../images/buttons/applynow.jpg" title="Apply Now" alt="Apply Now" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/applynow_hl.jpg'" onmouseout="this.src='../images/buttons/applynow.jpg'"></a>
                     </p>
                     <p>
                         <a href="http://www.bpcc.edu/futurestudents/visit/index.html"><img src="../images/buttons/visitbpcc.jpg" title="Visit bpcc" alt="Visit bpcc" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/visitbpcc_hl.jpg'" onmouseout="this.src='../images/buttons/visitbpcc.jpg'"></a>
                     </p>
+                    
                     <p>
                         <a href="http://www.bpcc.edu/registration/paymentoptions.html"><img src="../images/buttons/howtopay.jpg" title="How to Pay" alt="How to Pay" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/howtopay_hl.jpg'" onmouseout="this.src='../images/buttons/howtopay.jpg'"></a>
                     </p>
                     <p>
                         <a href="http://www.bpccfoundation.org"><img src="../images/buttons/supportbpcc.jpg" title="Support bpcc" alt="Support bpcc" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/supportbpcc_hl.jpg'" onmouseout="this.src='../images/buttons/supportbpcc.jpg'"></a>
+                    </p>
+                    -->
+                    <p>
+                        <a href="../login""><img src="../images/buttons/teachersignin.jpg" title="Teacher Faculty Log In" alt="Teachers and Faculty Sign In Here" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/teachersignin_hl.jpg'" onmouseout="this.src='../images/buttons/teachersignin.jpg'"></a>
+                    </p>
+                    <p>
+                        <a href="http://www.bpcc.edu/calendars/events/index.html"><img src="../images/buttons/eventcalendar.jpg" title="Bpcc Events Calendar" alt="Bpcc Events Calendar" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/eventcalendar_hl.jpg'" onmouseout="this.src='../images/buttons/eventcalendar.jpg'"></a>
                     </p>
 
                         <!-- Table below the buttons to orginize the icons and links zc-->

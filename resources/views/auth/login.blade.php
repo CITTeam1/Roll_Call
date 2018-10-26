@@ -92,6 +92,7 @@
 </div>
 <!--Adds a space at the bottom between the header and the login container zc-->
 <div>
-    <p>&nbsp;</p>
+    <br>
+    <br>
 </div>
 @endsection

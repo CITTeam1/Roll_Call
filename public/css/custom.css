@@ -184,6 +184,7 @@ h1, h2, h3, .timehead {
   font-weight: bold;
   color: #8b2332;
 }
+
 .card>.card-header, .card>.card-footer, thead
 {
   color: #edaa00;
@@ -195,6 +196,16 @@ th, tr{
   text-align: right;
 }
 
+h3, .past-events{
+  display: inline;
+  color: #edaa00;
+  background-color: #8b2332;
+}
+
+/**h3 span, .past-events{
+  background-color: #8b2332;
+}*/
+
 .awards th, tr{
   text-align: center;
 }
@@ -202,8 +213,15 @@ th, tr{
 
 .table-wrapper-scroll-y thead{
   display: block;
-  width: 100%;
+  width: 96.25%;
+  background-color: #8b2332;
+  color: #edaa00;
+  font-weight: bolder;
+  font-size: 25;
+  border-bottom: 1em;
+  border-bottom-color: #edaa00;
 }
+
 
 .table-wrapper-scroll-y tbody{
   display: block;
@@ -212,6 +230,8 @@ th, tr{
   overflow-y: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   width: 100%;
+  background-color: #8b2332;
+  color: #edaa00;
 }
 
 .card-body {
