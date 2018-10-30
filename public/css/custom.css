@@ -154,26 +154,26 @@ input[type=checkbox].form-control {
 }
 
 .pagination>li>a, .pagnation>li>span{
-   background-color: #8b2332;
-   padding: 6px;
+  background-color: #8b2332;
+  padding: 6px;
   color: #edaa00;
 }
 
 .pagnation>li>span {
-   background-color: #8b2332;
-   padding: 6px;
+  background-color: #8b2332;
+  padding: 6px;
   color: #edaa00;
   border: 1px solid red;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     z-index: 3;
     cursor: default;
-     padding: 6px;
+    padding: 6px;
     border-color: #edaa00;
     background-color: #edaa00;
     color: #8b2332;;
@@ -196,10 +196,19 @@ th, tr{
   text-align: right;
 }
 
-h3, .past-events{
+div, .pastevents{
+  padding-left: 20px;
+}
+
+h3, h2, .past-events{
   display: inline;
   color: #edaa00;
   background-color: #8b2332;
+  background-position: center;
+  padding-top: .10em;
+  padding-left: .25em;
+  padding-right: .50em;
+  padding-bottom: .30em;
 }
 
 /**h3 span, .past-events{
@@ -213,7 +222,7 @@ h3, .past-events{
 
 .table-wrapper-scroll-y thead{
   display: block;
-  width: 96.25%;
+  width: 100%;
   background-color: #8b2332;
   color: #edaa00;
   font-weight: bolder;

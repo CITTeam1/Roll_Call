@@ -16,14 +16,14 @@
                         <input style="width: 9em; text-align: center;" type="text" maxlength="9"  class="form-control" id="admitId" name="admitId" placeholder="L-ID" required="" autofocus="autofocus">
                         <div class="input-group-append">
                             <button id="searchButton" class="btn btn-primary" type="button">Search</button>
-                        </div>
+                        </div>        
                     </div>
             <br><br><br>
         </div>
     </div>
 </div>
 <!--Code for body of page zc-->
-<div>
+<div class="container-fluid">
     <table width = 99% border="0" cellspacing="0" cellpadding="2" class="col">
         <tbody>
             <tr>
@@ -31,8 +31,18 @@
                 <td width="33%" align="center" valign="top">
                     <!-- scrollable event updater using iframe zc-->
                     <!-- Title/heading for Iframe event updater zc-->
-                    <h3 class="past-events">Past Events Visted</h3>
                     
+                    <div class="d-inline-flex pastevents">
+                    
+                        <h2 class="past-events">Past 5 Events Visted</h2>
+
+                    <!--
+                    <br>
+                        <h3 class="past-events">Past Events Visted</h3>
+                    <br><br>
+                    -->
+                    </div>
+
                     <!-- IFRAME Scroller Start-->
                     <script type="text/javascript">
 
@@ -55,14 +65,8 @@
 
                     </script>
 
-                    <!--Link to Bpcc Calendar page zc-->
-                    <!--
-                    <p>&nbsp;</p>
-                        <p>
-                            <a href="http://www.bpcc.edu/calendars/events/index.html" target="_blank">View more on the Bpcc Events Calender</a>
-                        </p>
-                    -->
                 </td>
+
                 <!--Middle section of the page zc-->
                 <td width="33%" align="left" valign="top">
                 <!--Code for scrollable awards table zc-->
@@ -129,33 +133,13 @@
                             </tbody>
                         </table>
                     </div>
-                    <!--Link to login page zc-->
-                    <!--
-                        <p>&nbsp;</p>
-                                <p align="center">
-                                    <a href="../login">Teachers and Faculty click here to login</a>
-                                </p>
-                    -->
+
                 </td>
+
                 <!--Right section of the page zc-->
                 <td width="34%" align="center" valign="top">
                     <div>
                     <!--for buttons/links to other pages zc-->
-                    <!--
-                    <p>
-                        <a href="http://www.bpcc.edu/admissions/application/index.html"><img src="../images/buttons/applynow.jpg" title="Apply Now" alt="Apply Now" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/applynow_hl.jpg'" onmouseout="this.src='../images/buttons/applynow.jpg'"></a>
-                    </p>
-                    <p>
-                        <a href="http://www.bpcc.edu/futurestudents/visit/index.html"><img src="../images/buttons/visitbpcc.jpg" title="Visit bpcc" alt="Visit bpcc" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/visitbpcc_hl.jpg'" onmouseout="this.src='../images/buttons/visitbpcc.jpg'"></a>
-                    </p>
-                    
-                    <p>
-                        <a href="http://www.bpcc.edu/registration/paymentoptions.html"><img src="../images/buttons/howtopay.jpg" title="How to Pay" alt="How to Pay" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/howtopay_hl.jpg'" onmouseout="this.src='../images/buttons/howtopay.jpg'"></a>
-                    </p>
-                    <p>
-                        <a href="http://www.bpccfoundation.org"><img src="../images/buttons/supportbpcc.jpg" title="Support bpcc" alt="Support bpcc" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/supportbpcc_hl.jpg'" onmouseout="this.src='../images/buttons/supportbpcc.jpg'"></a>
-                    </p>
-                    -->
                     <p>
                         <a href="../login""><img src="../images/buttons/teachersignin.jpg" title="Teacher Faculty Log In" alt="Teachers and Faculty Sign In Here" width="300" height="61" border="0" onmouseover="this.src='../images/buttons/teachersignin_hl.jpg'" onmouseout="this.src='../images/buttons/teachersignin.jpg'"></a>
                     </p>
@@ -193,6 +177,7 @@
                                                 Email
                                     </td>
                                 </tr>
+                                <br><br>
                                 <!-- Bottom row of icons zc-->
                                 <tr>
                                     <td align="center" valign="middle">
