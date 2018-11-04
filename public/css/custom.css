@@ -196,7 +196,7 @@ th, tr{
   text-align: right;
 }
 
-div, .pastevents{
+.pastevents{
   padding-left: 20px;
 }
 
@@ -210,10 +210,6 @@ h3, h2, .past-events{
   padding-right: .50em;
   padding-bottom: .30em;
 }
-
-/**h3 span, .past-events{
-  background-color: #8b2332;
-}*/
 
 .awards th, tr{
   text-align: center;
@@ -239,9 +235,8 @@ h3, h2, .past-events{
   overflow-y: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   width: 100%;
-  background-color: #8b2332;
-  color: #edaa00;
 }
+
 
 .card-body {
    color: #8b2332;
