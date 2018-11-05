@@ -38,41 +38,11 @@ function findId(lid){
 
 
     if($.trim(lid) != ''){
-            $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
+        window.location.href = '/event/pointsPage/findId/' + lid;
+        
+        
+    }}
 
-        $.ajax({
-            url: '/event/pointsPage/findId/'+lid,
-
-            method: "GET",
-
-            data: {lid:lid},
-
-
-
-            success: function (response) {
-
-                switch(response[1])
-                {
-                    case 'success':
-                        message = "Results found.";
-                        console.log(message);
-                    
-                    break;
-
-                    default:
-                    message = "Woah there cowboy.";
-
-                } 
-                //console.log(lid);  
-            }
-                    
-    });
-    }
-}
 
 $('#searchButton').click(
     function() {
