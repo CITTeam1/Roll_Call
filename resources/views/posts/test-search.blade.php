@@ -37,14 +37,15 @@
                         
                             <h2 class="past-events">Past 5 Events Visted</h2>
 
-                        <!--
-                        <br>
-                            <h3 class="past-events">Past Events Visted</h3>
-                        <br><br>
-                        -->
                         </div>
 
+                            <p class="past-events-text"> The first event would go here &nbsp; date here  <br><br>
+                                The second event would go here &nbsp; date here <br><br>
+                                The third event would go here &nbsp; date here  <br><br>
+                                The fourth event would go here &nbsp; date here <br><br>
+                                The fifth event would go here &nbsp; date here  </p>
                         <!-- IFRAME Scroller Start-->
+                        <!--
                         <script type="text/javascript">
 
                         /*********************************
@@ -65,6 +66,7 @@
                         document.write('<iframe id="datamain" src="'+iframesrc+'" height="200px" marginwidth="0" marginheight="0" vspace="20" frameborder="0" scrolling="no"></iframe>')
 
                         </script>
+                    -->
 
                     </td>
 

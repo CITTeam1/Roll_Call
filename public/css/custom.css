@@ -211,6 +211,10 @@ h3, h2, .past-events{
   padding-bottom: .30em;
 }
 
+.past-events-text{
+  text-align: center;
+}
+
 .awards th, tr{
   text-align: center;
 }
