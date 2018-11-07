@@ -30,8 +30,7 @@
                 <tr>
                     <!--Left section of the page zc-->
                     <td width="35%" align="center" valign="top">
-                        <!-- scrollable event updater using iframe zc-->
-                        <!-- Title/heading for Iframe event updater zc-->
+                        <!-- Left section of the page for past 5 events zc-->
                         
                         <div class="d-inline-flex pastevents">
                         
@@ -39,35 +38,14 @@
 
                         </div>
 
-                            <p class="past-events-text"> The first event would go here &nbsp; date here  <br><br>
+                            <p class="past-events-text"> 
+                                The first event would go here &nbsp; date here  <br><br>
                                 The second event would go here &nbsp; date here <br><br>
                                 The third event would go here &nbsp; date here  <br><br>
                                 The fourth event would go here &nbsp; date here <br><br>
-                                The fifth event would go here &nbsp; date here  </p>
-                        <!-- IFRAME Scroller Start-->
-                        <!--
-                        <script type="text/javascript">
-
-                        /*********************************
-                        *IFRAM Scroller script- @Dynamic Drive DHTML code library (www.dynamicdrive.com)
-                        *This notice MUST stay intact for legal use
-                        *Visit Dynamic Dribr at http://www.dynamicdrive.com/ for full source code
-                        **********************************/
-
-                        //specify path to your external page:
-                        //for regular anouncments use "events/mainpage.html"
-                        //but that page is not connected to this project so 
-                        //so use "searchpageEventsInformation.html" for the time being
-                        //for college closure annoucements, replace with "events/mainpage-closure.html" or "events/mainpage-closure-noscroll.html"
-
-                        var iframesrc="../events/searchpageEventsInformation.html"
-
-                        //you may change most attributes of iframe tag below
-                        document.write('<iframe id="datamain" src="'+iframesrc+'" height="200px" marginwidth="0" marginheight="0" vspace="20" frameborder="0" scrolling="no"></iframe>')
-
-                        </script>
-                    -->
-
+                                The fifth event would go here &nbsp; date here  
+                            </p>
+                    
                     </td>
 
                     <!--Middle section of the page zc-->
@@ -184,7 +162,9 @@
                                                     Email
                                         </td>
                                     </tr>
+                                    
                                     <br><br>
+
                                     <!-- Bottom row of icons zc-->
                                     <tr>
                                         <td align="center" valign="middle">
