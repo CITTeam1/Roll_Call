@@ -48,15 +48,21 @@
                             <h2 class="past-events">Past 5 Events Visted</h2>
 
                         </div>
-
-                            <p class="past-events-text"> 
-                                The first event would go here &nbsp; date here  <br><br>
-                                The second event would go here &nbsp; date here <br><br>
-                                The third event would go here &nbsp; date here  <br><br>
-                                The fourth event would go here &nbsp; date here <br><br>
-                                The fifth event would go here &nbsp; date here  
-                            </p>
-                    
+                        <div>
+                            <!-- Grabs the 5 most recent events of the lid searched and posts the name
+                                and time of the event -->
+                            @if(isset($pEvent))
+                                    @foreach($pEvent as $pEve)
+                                        <p class="past-events-text"> 
+                                            {{$pEve->events_title}}&nbsp;{{$pEve->events_start_datetime}}
+                                        </p>
+                                @endforeach
+                            @else 
+                                <p class="past-events-text"> No past events</p>
+                            @endif
+                            
+                            
+                        </div>
                     </td>
 
                     <!--Middle section of the page zc-->
