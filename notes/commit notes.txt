@@ -1,1 +1,0 @@
-push message syntax: [(Finishes|Fixes|Delivers) #TRACKER_STORY_ID] "Here is where you put your commit message without quotes."

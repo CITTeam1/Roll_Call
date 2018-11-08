@@ -8,6 +8,7 @@ use App\Admission;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 
+
 class AdmissionController extends Controller
 {
     /**
