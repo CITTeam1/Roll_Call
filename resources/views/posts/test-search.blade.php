@@ -49,7 +49,8 @@
 
                         </div>
                         <div>
-                            
+                            <!-- Grabs the 5 most recent events of the lid searched and posts the name
+                                and time of the event -->
                             @if(isset($pEvent))
                                     @foreach($pEvent as $pEve)
                                         <p class="past-events-text"> 
