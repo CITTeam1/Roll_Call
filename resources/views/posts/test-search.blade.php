@@ -139,10 +139,10 @@
                         <div>
                         <!--for buttons/links to other pages zc-->
                         <p>
-                            <a href="../login""><img src="../images/buttons/teachersignin.jpg" title="Teacher Faculty Log In" alt="Teachers and Faculty Sign In Here" width="330" height="61" border="0" onmouseover="this.src='../images/buttons/teachersignin_hl.jpg'" onmouseout="this.src='../images/buttons/teachersignin.jpg'"></a>
+                            <a href="../login""><img src="/pictures/teachersignin.jpg" title="Teacher Faculty Log In" alt="Teachers and Faculty Sign In Here" width="330" height="61" border="0" onmouseover="this.src='/pictures/teachersignin_hl.jpg'" onmouseout="this.src='/pictures/teachersignin.jpg'"></a>
                         </p>
                         <p>
-                            <a href="http://www.bpcc.edu/calendars/events/index.html"><img src="../images/buttons/eventcalendar.jpg" title="Bpcc Events Calendar" alt="Bpcc Events Calendar" width="330" height="61" border="0" onmouseover="this.src='../images/buttons/eventcalendar_hl.jpg'" onmouseout="this.src='../images/buttons/eventcalendar.jpg'"></a>
+                            <a href="http://www.bpcc.edu/calendars/events/index.html"><img src="/pictures/eventcalendar.jpg" title="Bpcc Events Calendar" alt="Bpcc Events Calendar" width="330" height="61" border="0" onmouseover="this.src='/pictures/eventcalendar_hl.jpg'" onmouseout="this.src='/pictures/eventcalendar.jpg'"></a>
                         </p>
 
                             <!-- Table below the buttons to orginize the icons and links zc-->
@@ -153,7 +153,7 @@
                                     <tr>
                                         <td width="20%" align="center" valign="middle">
                                             <a href="http://www.bpcc.edu/lola/login/index.html" target="_blank">
-                                                <img src="../images/icons/lola.png" alt="Sign into LOLA" title="Sign into LOLA" width="50" height="50" border="0">
+                                                <img src="/pictures/lola.png" alt="Sign into LOLA" title="Sign into LOLA" width="50" height="50" border="0">
                                             </a>
                                                 <br>
                                                     LOLA
@@ -163,7 +163,7 @@
 
                                         <td width="20%" align="center" valign="middle">
                                             <a href="https://my.bpcc.edu" target="_blank">
-                                                <img src="../images/icons/mybpcc.png" alt="Sign into myBPCC" title="Sign into myBPCC" width="50" height="50" border="0">
+                                                <img src="/pictures/mybpcc.png" alt="Sign into myBPCC" title="Sign into myBPCC" width="50" height="50" border="0">
                                             </a>
                                                 <br>
                                                     myBPCC
@@ -173,7 +173,7 @@
 
                                         <td width="20%" align="center" valign="middle">
                                             <a href="http://www.bpcc.edu/email/index.html"target= "_blank">
-                                                <img src="../images/icons/email.png" alt="Email" title="Email" width="50" height="50" border="0">
+                                                <img src="/pictures/email.png" alt="Email" title="Email" width="50" height="50" border="0">
                                             </a>
                                                 <br>
                                                     Email
@@ -186,7 +186,7 @@
                                     <tr>
                                         <td align="center" valign="middle">
                                             <a href="http://www.facebook.com/pages/Bossier-City-LA/Bossier-Parish-Community-College/131395030236355?ref=sgm" target="_blank">
-                                                <img src="../images/icons/facebook.png" alt="Facebook" title="Follow Bpcc on Facebook" width="50" height="50" border="0">
+                                                <img src="/pictures/facebook.png" alt="Facebook" title="Follow Bpcc on Facebook" width="50" height="50" border="0">
                                             </a>
                                                 <br>
                                                     Facebook
@@ -196,7 +196,7 @@
 
                                         <td align="center" valign="middle">
                                             <a href="http://twitter.com/bpcccavs" target="_blank">
-                                                <img src="../images/icons/twitter.png" alt="Follow Bpcc on Twitter" title="Twitter" width="50" height="50" border="0">
+                                                <img src="/pictures/twitter.png" alt="Follow Bpcc on Twitter" title="Twitter" width="50" height="50" border="0">
                                             </a>
                                                 <br>
                                                     Twitter
@@ -206,7 +206,7 @@
 
                                         <td align="center" valign="middle">
                                             <a href="http://www.bpcc.edu/emergency/index.html" target="_blank">
-                                                <img src="../images/icons/cavalert.png" alt="CAValert: Register Now" title="CAValert: Register Now" width="50" height="50" border="0">
+                                                <img src="/pictures/cavalert.png" alt="CAValert: Register Now" title="CAValert: Register Now" width="50" height="50" border="0">
                                             </a>
                                                 <br>
                                                     CAVSalert
