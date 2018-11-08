@@ -27,7 +27,7 @@
 <div class="col-xl-10 col-xl-offset-5">
     @if(isset($result))
         @foreach($result as $re)
-            <p id="displayPoints" class="text-center" style="center;"> Hello {{$re->first_name}} {{$re->last_name}}, your lid is {{$re->lid}} </p>
+            <p id="displayPoints" class="text-center" style="center;"> Hello {{$re->first_name}} {{$re->last_name}}, you have {{$re->points}} points.</p>
         @endforeach
     @else
         <p id="displayPoints" class="text-center" style="text-align: center;"> Example: L12345678</p>

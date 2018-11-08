@@ -169,6 +169,8 @@ class AdmissionController extends Controller
 
         if(count($list) == 0) return['denied'];
 
+        
+        
 
         return ['success', $list]; //return success and list of query
 
@@ -237,9 +239,12 @@ class AdmissionController extends Controller
                 'admissions_student' => $student,
                 'admissions_employee' => $employee,
             ]
+
         );
 
+        dd($response);
         return ['success', $response];
+
     }
 
 
@@ -327,10 +332,5 @@ class AdmissionController extends Controller
 
         return ['success', $response];
     }
-
-
-
-
-
 
 }
