@@ -22,16 +22,15 @@
     </div>
 </div>
 <!-- Displays how many points a student has. -DB -->
-<div class="col-xl-10">
+<div class="col-xl-10 col-xl-offset-5">
     @if(isset($result))
         @foreach($result as $re)
-            <p id="displayPoints" class="text-center"> Hello {{$re->first_name}} {{$re->last_name}}, your lid is {{$re->lid}} </p>
+            <p id="displayPoints" class="text-center" style="center;"> Hello {{$re->first_name}} {{$re->last_name}}, your lid is {{$re->lid}} </p>
         @endforeach
     @else
-        <p id="displayPoints" class="text-center"> Example: L12345678</p>
+        <p id="displayPoints" class="text-center" style="text-align: center;"> Example: L12345678</p>
     @endif
-</div>
-        
+</div> 
 
 
 <script type="text/javascript">
