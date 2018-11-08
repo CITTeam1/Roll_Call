@@ -22,6 +22,17 @@ class GuestController extends Controller{
     	$result = DB::table('people')
     		->select(DB::raw("lid,last_name,first_name"))
     		->where('lid', '=', $lid)
-    		->get('lid', 'first_name', 'last_name');    	
-    	return view('posts.test-search', compact('result'));
-}}
+    		->get('lid', 'first_name', 'last_name'); 
+
+        $pEvent = DB::table('events')
+            ->select(DB::raw("events_title,events_start_datetime")) 
+            ->leftJoin('admissions', 'events.id', '=', 'admissions.admissions_event_id')
+            ->leftJoin('people', 'admissions.admissions_lid', '=', 'people.lid')
+            ->where('people.lid', '=', $lid)
+            ->get('events_title','events_start_datetime');
+
+    	return view('posts.test-search', compact('result','pEvent'));
+    }
+
+
+}
