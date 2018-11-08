@@ -10,24 +10,18 @@ use App\Admission;
 use DB;
 
 class GuestController extends Controller{
-	/* Controller specifically for handling events that don't need a login.
-	*/
-	public function pointsPage(){ //Display point page -DB
+/* Controller specifically for handling events that don't need a login. -DB */
+
+	//Sends to Awards page -DB
+	public function pointsPage(){ 
         return view ('posts.test-search');
     }
-    //trying to point to the id the user enetered -DB
-    public function findLID($lid){ //Returns matching first last and lid.
-    	//E.X. http://127.0.0.1:8000/event/pointsPage/findId/L01430811
 
-    	
+    //Uses entry from test-search page to grab firstname, lastname, and number of points -DB
+    public function findLID($lid){ 
     	$result = DB::table('people')
     		->select(DB::raw("lid,last_name,first_name"))
     		->where('lid', '=', $lid)
-    		->get('lid', 'first_name', 'last_name');
-
-    	
-    	
+    		->get('lid', 'first_name', 'last_name');    	
     	return view('posts.test-search', compact('result'));
-    //}
-
 }}

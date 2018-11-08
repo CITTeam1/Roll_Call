@@ -1,1 +1,3 @@
 push message syntax: [(Finishes|Fixes|Delivers) #TRACKER_STORY_ID] "Here is where you put your commit message without quotes."
+
+@if(isset($result)) @foreach($result as $re) value= "Hello {{$re->first_name}}" @endforeach @endif
