@@ -20,9 +20,9 @@ class GuestController extends Controller{
     //Uses entry from test-search page to grab firstname, lastname, and number of points -DB
     public function findLID($lid){ 
     	$result = DB::table('people')
-    		->select(DB::raw("lid,last_name,first_name"))
+    		->select(DB::raw("lid, points,last_name,first_name"))
     		->where('lid', '=', $lid)
-    		->get('lid', 'first_name', 'last_name'); 
+    		->get('points', 'first_name', 'last_name');  
 
     //Filters through the data base by the lid entered and grabs the 5 most recent events and
     //the time the event was started -ZC    
