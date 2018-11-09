@@ -6,6 +6,7 @@ use App\Event;
 use App\Person;
 use App\Admission;
 use Carbon\Carbon;
+use DB;
 use Illuminate\Http\Request;
 
 
@@ -224,11 +225,15 @@ class AdmissionController extends Controller
             return['denied'];
         }
 
+
+
         $first = $list->first_name; //init firstname
         $last = $list->last_name; //init lastname
         $student = $list->student; //init student status
         $employee = $list->employee; //inite employee status
 
+        //Add a point to the student's point column
+        
         //Create Admission
         $response = Admission::create(
             [
@@ -237,13 +242,22 @@ class AdmissionController extends Controller
                 'admissions_first_name' => $first,
                 'admissions_last_name' => $last,
                 'admissions_student' => $student,
-                'admissions_employee' => $employee,
+                'admissions_employee' => $employee,   
             ]
 
         );
+        
 
-        dd($response);
         return ['success', $response];
+
+        //Add a point to the student's point column
+        $pointQuery=DB::table('people')
+            ->select(DB::raw("lid"))
+            ->where('lid', '=', $lid)
+            ->get('points');
+        
+        $pointQuery->update(['points'=>DB::raw('points+1')]);
+
 
     }
 

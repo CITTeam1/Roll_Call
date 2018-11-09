@@ -22,6 +22,8 @@ class GuestController extends Controller{
     	$result = DB::table('people')
     		->select(DB::raw("lid, points,last_name,first_name"))
     		->where('lid', '=', $lid)
-    		->get('points', 'first_name', 'last_name');    	
+    		->get('points', 'first_name', 'last_name');  
+
+ 	
     	return view('posts.test-search', compact('result'));
 }}
