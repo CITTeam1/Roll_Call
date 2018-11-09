@@ -49,14 +49,22 @@
 
                         </div>
                         <div>
+                            
                             <!-- Grabs the 5 most recent events of the lid searched and posts the name
                                 and time of the event -->
                             @if(isset($pEvent))
                                     @foreach($pEvent as $pEve)
-                                        <p class="past-events-text"> 
-                                            {{$pEve->events_title}}&nbsp;{{$pEve->events_start_datetime}}
-                                        </p>
-                                @endforeach
+                                        <!--converts the events_start_datetime to mm-dd-yyyy format-->
+                                        <?php 
+                                            $pDates = $pEve->events_start_datetime;
+                                            $pDates = date("F j, Y")
+                                        ?>
+                                            <!--displays each event seperately -->
+                                            <p class="past-events-text"> 
+                                                <b>{{$pEve->events_title}}</b><br>{{$pDates}}
+                                            </p>
+
+                                    @endforeach
                             @else 
                                 <p class="past-events-text"> No past events</p>
                             @endif
