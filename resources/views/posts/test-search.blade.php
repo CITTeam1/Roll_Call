@@ -12,7 +12,7 @@
             <br>
                 @include('layouts.errors')
                 @include('layouts.sessions')  
-                    <div class="input-group" style="width: 26em; margin: 0 auto;">
+                    <div class="input-group" style="width: 24em; margin: 0 auto;">
                         <input style="width: 9em; text-align: center;" type="text" maxlength="9"  class="form-control" id="admitId" name="admitId" placeholder="Enter LID" required="" autofocus="autofocus">
                         <div class="input-group-append">
                             <button id="searchButton" class="btn btn-primary" type="button">Search</button>
@@ -40,7 +40,7 @@
         <tbody>
             <tr>
                 <!--Left section of the page zc-->
-                <td width="35%" align="center" valign="top">
+                <td width="33%" align="center" valign="top">
                     <!-- Left section of the page for past 5 events zc-->
                         
                         <div class="d-inline-flex pastevents">
@@ -66,7 +66,7 @@
                     </td>
 
                     <!--Middle section of the page zc-->
-                    <td width="34%" align="left" valign="top">
+                    <td width="33%" align="left" valign="top">
                     <!--Code for scrollable awards table zc-->
                         <div class= "table-wrapper-scroll-y">
                             <table class = "awards table-bg">
@@ -135,7 +135,7 @@
                     </td>
 
                     <!--Right section of the page zc-->
-                    <td width="32%" align="center" valign="top">
+                    <td width="33%" align="center" valign="top">
                         <div>
                         <!--for buttons/links to other pages zc-->
                         <p>
