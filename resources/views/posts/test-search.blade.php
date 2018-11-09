@@ -12,7 +12,7 @@
             <br>
                 @include('layouts.errors')
                 @include('layouts.sessions')  
-                    <div class="input-group" style="width: 24em; margin: 0 auto;">
+                    <div class="input-group" style="width: 26em; margin: 0 auto;">
                         <input style="width: 9em; text-align: center;" type="text" maxlength="9"  class="form-control" id="admitId" name="admitId" placeholder="Enter LID" required="" autofocus="autofocus">
                         <div class="input-group-append">
                             <button id="searchButton" class="btn btn-primary" type="button">Search</button>
@@ -24,13 +24,13 @@
 </div>
 
 <!-- Displays how many points a student has. -DB -->
-<div class="col-xl-10 col-xl-offset-5">
+<div class="col-xl-10 col-xl-offset-5 textwrapper">
     @if(isset($result))
         @foreach($result as $re)
-            <p id="displayPoints" class="text-center" style="center;"> Hello {{$re->first_name}} {{$re->last_name}}, your lid is {{$re->lid}} </p>
+            <p id="displayPoints" class="text-center"> Hello {{$re->first_name}} {{$re->last_name}}, your lid is {{$re->lid}} </p>
         @endforeach
     @else
-        <p id="displayPoints" class="text-center" style="text-align: center;"> Example: L12345678</p>
+        <p id="displayPoints" class="text-center"> Example: L12345678</p>
     @endif
 </div> 
 
@@ -40,7 +40,7 @@
         <tbody>
             <tr>
                 <!--Left section of the page zc-->
-                <td width="33%" align="center" valign="top">
+                <td width="35%" align="center" valign="top">
                     <!-- Left section of the page for past 5 events zc-->
                         
                         <div class="d-inline-flex pastevents">
@@ -66,7 +66,7 @@
                     </td>
 
                     <!--Middle section of the page zc-->
-                    <td width="33%" align="left" valign="top">
+                    <td width="34%" align="left" valign="top">
                     <!--Code for scrollable awards table zc-->
                         <div class= "table-wrapper-scroll-y">
                             <table class = "awards table-bg">
