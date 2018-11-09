@@ -225,14 +225,11 @@ class AdmissionController extends Controller
             return['denied'];
         }
 
-
-
         $first = $list->first_name; //init firstname
         $last = $list->last_name; //init lastname
         $student = $list->student; //init student status
         $employee = $list->employee; //inite employee status
 
-        //Add a point to the student's point column
         
         //Create Admission
         $response = Admission::create(
@@ -244,19 +241,16 @@ class AdmissionController extends Controller
                 'admissions_student' => $student,
                 'admissions_employee' => $employee,   
             ]
-
         );
         
-
-        return ['success', $response];
-
-        //Add a point to the student's point column
+        //Adds points to student if successfully admitted. -DB
         $pointQuery=DB::table('people')
             ->select(DB::raw("lid"))
             ->where('lid', '=', $lid)
-            ->get('points');
+            ->update(['points'=>DB::raw('points+1')]);
         
-        $pointQuery->update(['points'=>DB::raw('points+1')]);
+        return ['success', $response];
+
 
 
     }
