@@ -24,13 +24,13 @@
 </div>
 
 <!-- Displays how many points a student has. -DB -->
-<div class="col-xl-10 col-xl-offset-5">
+<div class="col-xl-10 col-xl-offset-5 textwrapper">
     @if(isset($result))
         @foreach($result as $re)
-            <p id="displayPoints" class="text-center" style="center;"> Hello {{$re->first_name}} {{$re->last_name}}, you have {{$re->points}} points.</p>
+            <p id="displayPoints" class="text-center"> Hello {{$re->first_name}} {{$re->last_name}}, you have {{$re->points}} points.</p>
         @endforeach
     @else
-        <p id="displayPoints" class="text-center" style="text-align: center;"> Example: L12345678</p>
+        <p id="displayPoints" class="text-center"> Example: L12345678</p>
     @endif
 </div> 
 
@@ -135,7 +135,7 @@
                     </td>
 
                     <!--Right section of the page zc-->
-                    <td width="32%" align="center" valign="top">
+                    <td width="33%" align="center" valign="top">
                         <div>
                         <!--for buttons/links to other pages zc-->
                         <p>

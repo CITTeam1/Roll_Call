@@ -287,6 +287,11 @@ body {
 }
 
 /* css for awards page zc */ 
+.textwrapper{
+  max-width: 350px;
+  margin: auto;
+}
+
 .pastevents{
   padding-left: 20px;
 }
@@ -313,7 +318,7 @@ h3, h2, .past-events{
 
 .table-wrapper-scroll-y thead{
   display: block;
-  width: 100%;
+  width: 105%;
   background-color: #8b2332;
   color: #edaa00;
   font-weight: bolder;
@@ -325,10 +330,10 @@ h3, h2, .past-events{
 
 .table-wrapper-scroll-y tbody{
   display: block;
-  max-height: 250px;
-  max-width: 500px;
+  max-height: 275px;
+  max-width: 600px;
   overflow-y: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  width: 100%;
+  width: 105%;
 }
 
