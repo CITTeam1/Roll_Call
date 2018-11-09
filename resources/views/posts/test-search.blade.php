@@ -139,7 +139,7 @@
                         <div>
                         <!--for buttons/links to other pages zc-->
                         <p>
-                            <a href="../login""><img src="/pictures/teachersignin.jpg" title="Teacher Faculty Log In" alt="Teachers and Faculty Sign In Here" width="330" height="61" border="0" onmouseover="this.src='/pictures/teachersignin_hl.jpg'" onmouseout="this.src='/pictures/teachersignin.jpg'"></a>
+                            <a href="/login""><img src="/pictures/teachersignin.jpg" title="Teacher Faculty Log In" alt="Teachers and Faculty Sign In Here" width="330" height="61" border="0" onmouseover="this.src='/pictures/teachersignin_hl.jpg'" onmouseout="this.src='/pictures/teachersignin.jpg'"></a>
                         </p>
                         <p>
                             <a href="http://www.bpcc.edu/calendars/events/index.html"><img src="/pictures/eventcalendar.jpg" title="Bpcc Events Calendar" alt="Bpcc Events Calendar" width="330" height="61" border="0" onmouseover="this.src='/pictures/eventcalendar_hl.jpg'" onmouseout="this.src='/pictures/eventcalendar.jpg'"></a>
